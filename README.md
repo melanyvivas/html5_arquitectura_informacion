@@ -4,4 +4,4 @@ Les invito a observar mi primera entrega en HTML. Sin duda un proyecto al cuál 
 
 ## Breve Descripción:
 
-Este proyecto es puramente de HTML. Consta de una estructura primordial, acompañada de atributos y etiquetas aprendidas a lo largo del primer tramo de clases. Espero puedann valorar el trabajo echo con sintaxis variada.
+Este proyecto es puramente de HTML. Consta de una estructura primordial, acompañada de atributos y etiquetas aprendidas a lo largo del primer tramo de clases. Espero puedan valorar el trabajo echo con sintaxis variada.
