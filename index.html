@@ -29,16 +29,22 @@
       <nav>
         <ul>
           <li>
-            <a href="https://elrincondelretro.com/" target="_blank">Consolas</a>
+            <a href="https://elrincondelretro.com/" target="_blank"
+              >Rincón Gaming</a
+            >
           </li>
-          <li><a href="Listado.html">Introducción</a></li>
-          <li><a href="Formulario.html">Formulario</a></li>
+          <li>
+            <a href="https://www.catawiki.com/es/s?q=nintendos" target="_blank"
+              >Subastas de Nintendo</a
+            >
+          </li>
+          <li><a href="#votacion">Formulario</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <article>
-        <h2>Introducción</h2>
+        <a name="#introducción"><h2>Introducción</h2></a>
         <p>
           Los entusiastas de los videojuegos conocen muy bien la marca Nintendo,
           una de las compañías más importantes en la industria de los
@@ -142,8 +148,30 @@
       </article>
     </main>
     <footer>
+      <form action="registro_nintendos" method="post">
+        <fieldset>
+          <a name="votacion"><legend>Formulario de Registro</legend></a>
+          <input type="text" name="nombre" placeholder="Nombre completo" />
+          <input type="email" name="correo" placeholder="Correo electrónico" />
+          <select name="Nintendo Favorita">
+            <option value="">Elige tu favorita</option>
+            <option value="batman">Nintendo Entertainment</option>
+            <option value="spiderman">GameBoy</option>
+            <option value="wonder_woman">Nintendo 64</option>
+          </select>
+          <input type="submit" value="Registrarse" />
+        </fieldset>
+      </form>
       <p>Copyright &copy; 2024 - Derechos de autor de Nintendo</p>
       <a href="politica-privacidad.html">Política de privacidad</a>
     </footer>
+    <address>
+      <h2>Información De Contacto</h2>
+      <ul>
+        <li>Melany Vivas</li>
+        <li>nintendos.123@gmail.com</li>
+        <li>Madrid, España</li>
+      </ul>
+    </address>
   </body>
 </html>
